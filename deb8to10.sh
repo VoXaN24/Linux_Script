@@ -24,3 +24,4 @@ if "$reb" == "1":
 	shutdown -r now
 else
 	echo "Merci d'avoir utilisé ce script, Pensez a redémarrer votre machine !"
+	exit
