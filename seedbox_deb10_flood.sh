@@ -72,6 +72,7 @@ systemctl enable flood
 systemctl start flood
 #Variable utile 
 ip="$(curl ifconfig.me)"
+rm -r /tmp/vfile/
 echo "-----------------------------------"
 echo "Installation terminer"
 echo "Votre seedbox est disponible a l'addresse suivante : $ip:3000"
