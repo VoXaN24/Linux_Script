@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#choix langue
 function langchoise {
 	PS3="Your choise"
 	select item in "- English -" "- French -" "- Exit -"
@@ -22,6 +22,7 @@ function langchoise {
 		esac
 	done
 }
+#Debian 8 -> 10
 function deb8to10 {
 	echo "Debian 8 to 10"
 	mkdir /tmp/vscript
@@ -31,6 +32,7 @@ function deb8to10 {
 	rm -r /tmp/vscript
 	exit 0
 }
+#Debian 9 -> 10
 function deb9to10{
 	echo "Debian 9 to 10"
 	mkdir /tmp/vscript
@@ -40,6 +42,7 @@ function deb9to10{
 	rm -r /tmp/vscript
 	exit 0
 }
+#Debian 8 -> 9
 function deb8to9{
 	echo "Debian 8 to 9"
 	mkdir /tmp/vscript
@@ -49,6 +52,7 @@ function deb8to9{
 	rm -r /tmp/vscript
 	exit 0
 }
+#CentOS 7 -> 8
 function cos7to8{
 	echo "CentOS 7 to 8"
 	mkdir /tmp/vscript
@@ -58,6 +62,7 @@ function cos7to8{
 	rm -r /tmp/vscript
 	exit 0
 }
+#Seedbox Flood Debian 10
 function sbflooddeb10{
 	mkdir /tmp/vscript
 	curl https://voxan24.github.io/Linux_Script/seedbox_deb10_flood.sh -o /tmp/vscript/seedbox_deb10_flood.sh
@@ -66,6 +71,7 @@ function sbflooddeb10{
 	rm -r /tmp/vscript
 	exit
 }
+#Langue ANG
 function Eng{
 	PS3="Your choise"
 	select item in "- Debian 8 to 10 -" "- Debian 9 to 10 -" "- Debian 8 to 9 -" "- CentOS 7 to 8 -" "- Seedbox Flood for Debian 10 -" "- Exit -" "- Website -"
@@ -100,6 +106,7 @@ function Eng{
 		esac
 	done
 }
+#Langue FR
 function Fr{
 	PS3="Votre choix "
 	select item in "- Debian 8 vers 10 -" "- Debian 9 vers 10 -" "- Debian 8 vers 9 -" "- CentOS 7 vers 8 -" "- Seedbox Flood pour Debian 10 -" "- Sortir -"
@@ -131,4 +138,9 @@ function Fr{
 		esac
 	done
 }
+#Vérification sudo/root
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit 0
+fi
 langchoise
