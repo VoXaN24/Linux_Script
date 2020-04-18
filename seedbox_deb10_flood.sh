@@ -64,7 +64,7 @@ npm install -g node-gyp
 npm run build
 #Démarrage et inscription au démarrage de Flood
 echo "Prérequis avant le 1er démarrage + inscription au démarrage de la machine"
-adduser --disabled-password --quiet flood
+adduser --disabled-password --quiet --shell /bin/bash --home /home/flood --gecos "Flood" flood
 chown -R flood:flood /srv/torrent/flood/
 mv /tmp/vfile/flood.service /etc/systemd/system/flood.service
 chmod a+x /etc/systemd/system/flood.service
@@ -76,5 +76,6 @@ rm -r /tmp/vfile/
 echo "-----------------------------------"
 echo "Installation terminer"
 echo "Votre seedbox est disponible a l'addresse suivante : $ip:3000"
+echo "Vos torrent sont stocker dans /srv/torrent/downloads"
 echo "Merci d'avoir utilisé se script !"
 echo "-----------------------------------"
