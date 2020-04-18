@@ -11,7 +11,7 @@ if "$lang" == "en":
 	echo "Welcome in the textual interface of VoXaN24's scripts choices (curl requiered)"
 	echo "Nb Script: 2"
 	echo "1- Update Debian 8 to 10 (deb8to10.sh)"
-	echo "2- Install flood seedbox in Debian 10 ()"
+	echo "2- Install flood seedbox in Debian 10 (seedbox_deb10_flood.sh)"
 	read -p "What's your choices ?" chx
 	if "$chx" == "1":
 		mkdir /tmp/vscript
@@ -22,7 +22,7 @@ if "$lang" == "en":
 		exit
 	if "$chx" == "2":
 		mkdir /tmp/vscript
-		curl https://voxan24.github.io/Linux_Script/seedbox_deb10_flood.sh-o /tmp/vscript/seedbox_deb10_flood.sh
+		curl https://voxan24.github.io/Linux_Script/seedbox_deb10_flood.sh -o /tmp/vscript/seedbox_deb10_flood.sh
 		chmod a+x /tmp/vscript/seedbox_deb10_flood.sh
 		bash /tmp/vscript/seedbox_deb10_flood.sh
 		rm -r /tmp/vscript
@@ -35,7 +35,7 @@ if "lang" == "fr":
 	echo "Bienvenue sur l'interface textuel de choix de Script du dépot de VoXaN24 (curl obligatoire)"
 	echo "Nombre de script disponible: 2"
 	echo "1- Script de mise a niveaux de Debian 8 vers Debian 10 (deb8to10.sh)"
-	echo "2- Script d'installation d'une seedbox avec flood sous Debian 10"
+	echo "2- Script d'installation d'une seedbox avec flood sous Debian 10 (seedbox_deb10_flood.sh)"
 	read -p "Quel est votre choix (entrez le chiffre correspondant a votre choix)" chx
 	if "$chx" == "1":
 		mkdir /tmp/vscript
@@ -46,7 +46,7 @@ if "lang" == "fr":
 		exit
 	if "$chx" == "2":
 		mkdir /tmp/vscript
-		curl https://voxan24.github.io/Linux_Script/seedbox_deb10_flood.sh-o /tmp/vscript/seedbox_deb10_flood.sh
+		curl https://voxan24.github.io/Linux_Script/seedbox_deb10_flood.sh -o /tmp/vscript/seedbox_deb10_flood.sh
 		chmod a+x /tmp/vscript/seedbox_deb10_flood.sh
 		bash /tmp/vscript/seedbox_deb10_flood.sh
 		rm -r /tmp/vscript
