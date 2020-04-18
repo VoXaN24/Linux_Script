@@ -1,10 +1,14 @@
 #!/bin/bash
 #Script automatique 
+#Vérification sudo/root
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
 read -p "what's your language (en -> English, fr -> French)" lang
 if "$lang" == "en":
-	echo "installation of curl if it isn't"
-	apt update -y && apt install curl -y
-	echo "Welcome in the textual interface of VoXaN24's scripts choices"
+	echo "Welcome in the textual interface of VoXaN24's scripts choices (curl requiered)"
 	echo "Nb Script: 2"
 	echo "1- Update Debian 8 to 10 (deb8to10.sh)"
 	echo "2- Install flood seedbox in Debian 10 ()"
@@ -28,9 +32,7 @@ if "$lang" == "en":
 		exit
 
 if "lang" == "fr":
-	echo "installation de curl si non installé"
-	apt update -y && apt install curl -y
-	echo "Bienvenue sur l'interface textuel de choix de Script du dépot de VoXaN24"
+	echo "Bienvenue sur l'interface textuel de choix de Script du dépot de VoXaN24 (curl obligatoire)"
 	echo "Nombre de script disponible: 2"
 	echo "1- Script de mise a niveaux de Debian 8 vers Debian 10 (deb8to10.sh)"
 	echo "2- Script d'installation d'une seedbox avec flood sous Debian 10"
