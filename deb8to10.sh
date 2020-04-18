@@ -17,6 +17,7 @@ sed -i 's|jessie|buster|' /etc/apt/sources.list
 apt update -y
 apt full-upgrade -y
 
+#Redémarrage ?
 read -p "Voulez-vous redémarrer (1 -> OUI 0 -> NON)" reb
 
 if "$reb" == "1":
