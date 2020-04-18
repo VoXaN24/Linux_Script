@@ -69,12 +69,21 @@ function sbflooddeb10{
 	chmod a+x /tmp/vscript/seedbox_deb10_flood.sh
 	bash /tmp/vscript/seedbox_deb10_flood.sh
 	rm -r /tmp/vscript
-	exit
+	exit 0
+}
+#Seedbox ruTorrent Debian 10
+function sbruTorrentdeb10{
+	mkdir /tmp/vscript
+	curl https://voxan24.github.io/Linux_Script/seedbox_deb10_rutorrent.sh -o /tmp/vscript/seedbox_deb10_rutorrent.sh
+	chmod a+x /tmp/vscript/seedbox_deb10_rutorrent.sh
+	bash /tmp/vscript/seedbox_deb10_rutorrent.sh
+	rm -r /tmp/vscript
+	exit 0
 }
 #Langue ANG
 function Eng{
 	PS3="Your choise"
-	select item in "- Debian 8 to 10 -" "- Debian 9 to 10 -" "- Debian 8 to 9 -" "- CentOS 7 to 8 -" "- Seedbox Flood for Debian 10 -" "- Exit -" "- Website -"
+	select item in "- Debian 8 to 10 -" "- Debian 9 to 10 -" "- Debian 8 to 9 -" "- CentOS 7 to 8 -" "- Seedbox Flood for Debian 10 -" "Seedbox ruTorent for Debian 10" "- Exit -" "- Website -"
 	do
 		echo "Vous avez choisi l'item $REPLY : $item"
 		case $REPLY in
@@ -94,10 +103,13 @@ function Eng{
 				sbflooddeb10
 				;;
 			6)
+				sbruTorrentdeb10
+				;;
+			7)
 				echo "Bye"
 				exit 0
 				;;
-			7)
+			8)
 				echo "https://voxan24.github.io/Linux_Script/"
 				;;
 			*)
@@ -109,7 +121,7 @@ function Eng{
 #Langue FR
 function Fr{
 	PS3="Votre choix "
-	select item in "- Debian 8 vers 10 -" "- Debian 9 vers 10 -" "- Debian 8 vers 9 -" "- CentOS 7 vers 8 -" "- Seedbox Flood pour Debian 10 -" "- Sortir -"
+	select item in "- Debian 8 vers 10 -" "- Debian 9 vers 10 -" "- Debian 8 vers 9 -" "- CentOS 7 vers 8 -" "- Seedbox Flood pour Debian 10 -" "Seedbox ruTorrent pour Debian 10" "- Sortir -" "- Site Internet -"
 	do
 		echo "Vous avez choisi l'item $REPLY : $item"
 		case $REPLY in
@@ -129,8 +141,14 @@ function Fr{
 				sbflooddeb10
 				;;
 			6)
+				sbruTorrentdeb10
+				;;
+			7)
 				echo "Bye"
 				exit 0
+				;;
+			8)
+				echo "https://voxan24.github.io/Linux_Script/"
 				;;
 			*)
 				echo "Quoi ?"
