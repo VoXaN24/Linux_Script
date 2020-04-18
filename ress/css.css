@@ -1,0 +1,13 @@
+body{
+	font-family: 'Ubuntu Mono', monospace;
+}
+table, th, td, tr {
+border: 2px solid black;
+border-collapse: collapse;
+text-align : center;
+border-color: rgb(119,181,254);
+}
+h1 {
+	color: red;
+
+}
