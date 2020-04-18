@@ -11,7 +11,7 @@ chmod 777 /tmp/vfile
 echo "Création terminer"
 #installation des paquet potentiellement manquant
 echo "installation des packet nécéssaire au procéssus d'installation"
-apt install curl build-essential git
+apt install curl build-essential git -y
 #Copie des fichier nécéssaire depuis le dépot
 echo "téléchargement de certain fichier nécéssaire"
 curl https://voxan24.github.io/Linux_Script/ress/rtorrent.rc -o /tmp/vfile/rtorrent.rc
