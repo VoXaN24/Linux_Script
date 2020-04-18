@@ -3,7 +3,7 @@
 apt update -y
 apt full-upgrade -y
 #Mise a niveau des dépot
-sed -i 's|Stretch|buster|' /etc/apt/sources.list
+sed -i 's|stretch|buster|' /etc/apt/sources.list
 #Mise a niveau vers Debian 10
 apt update -y
 apt full-upgrade -y
