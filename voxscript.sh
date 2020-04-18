@@ -34,8 +34,8 @@ function deb8to10 {
 }
 #Debian 9 -> 10
 function deb9to10{
-	echo "Debian 9 to 10"
 	mkdir /tmp/vscript
+	echo "Debian 9 to 10"
 	curl https://voxan24.github.io/Linux_Script/deb9to10.sh -o /tmp/vscript/deb9to10.sh
 	chmod a+x /tmp/vscript/deb9to10.sh
 	bash /tmp/vscript/deb9to10.sh
