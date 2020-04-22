@@ -1,7 +1,7 @@
 #!/bin/bash
 #choix langue
 function langchoise {
-	PS3="Your choise"
+	PS3="Your choise "
 	select item in "- English -" "- French -" "- Exit -"
 	do
 		echo "Vous avez choisi l'item $REPLY : $item"
@@ -29,16 +29,6 @@ function deb8to10 {
 	curl https://voxan24.github.io/Linux_Script/deb8to10.sh -o /tmp/vscript/deb8to10.sh
 	chmod a+x /tmp/vscript/deb8to10.sh
 	bash /tmp/vscript/deb8to10.sh
-	rm -r /tmp/vscript
-	exit 0
-}
-#Debian 9 -> 10
-function deb9to10{
-	mkdir /tmp/vscript
-	echo "Debian 9 to 10"
-	curl https://voxan24.github.io/Linux_Script/deb9to10.sh -o /tmp/vscript/deb9to10.sh
-	chmod a+x /tmp/vscript/deb9to10.sh
-	bash /tmp/vscript/deb9to10.sh
 	rm -r /tmp/vscript
 	exit 0
 }
@@ -80,10 +70,28 @@ function sbruTorrentdeb10{
 	rm -r /tmp/vscript
 	exit 0
 }
+function sublimtext{
+	mkdir /tmp/vscript
+	curl https://voxan24.github.io/Linux_Script/sublimtext.sh -o /tmp/vscript/sublimtext.sh
+	chmod a+x /tmp/vscript/sublimtext.sh
+	bash /tmp/vscript/sublimtext.sh
+	rm -r /tmp/vscript
+	exit 0
+}
+#Debian 9 -> 10
+function deb9to10{
+	mkdir /tmp/vscript
+	echo "Debian 9 to 10"
+	curl https://voxan24.github.io/Linux_Script/deb9to10.sh -o /tmp/vscript/deb9to10.sh
+	chmod a+x /tmp/vscript/deb9to10.sh
+	bash /tmp/vscript/deb9to10.sh
+	rm -r /tmp/vscript
+	exit 0
+}
 #Langue ANG
 function Eng{
 	PS3="Your choise"
-	select item in "- Debian 8 to 10 -" "- Debian 9 to 10 -" "- Debian 8 to 9 -" "- CentOS 7 to 8 -" "- Seedbox Flood for Debian 10 -" "Seedbox ruTorent for Debian 10" "- Exit -" "- Website -"
+	select item in "- Debian 8 to 10 -" "- Debian 9 to 10 -" "- Debian 8 to 9 -" "- CentOS 7 to 8 -" "- Seedbox Flood for Debian 10 -" "- Seedbox ruTorent for Debian 10 -" "- Install sublimtext -""- Exit -" "- Website -"
 	do
 		echo "Vous avez choisi l'item $REPLY : $item"
 		case $REPLY in
@@ -106,10 +114,13 @@ function Eng{
 				sbruTorrentdeb10
 				;;
 			7)
+				sublimtext
+				;;
+			8)
 				echo "Bye"
 				exit 0
 				;;
-			8)
+			9)
 				echo "https://voxan24.github.io/Linux_Script/"
 				;;
 			*)
@@ -144,10 +155,13 @@ function Fr{
 				sbruTorrentdeb10
 				;;
 			7)
+				sublimtext
+				;;
+			8)
 				echo "Bye"
 				exit 0
 				;;
-			8)
+			9)
 				echo "https://voxan24.github.io/Linux_Script/"
 				;;
 			*)
