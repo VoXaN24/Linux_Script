@@ -1,0 +1,26 @@
+# Where rTorrent saves the downloaded files
+directory.default.set = /srv/torrent/downloads
+
+# Where rTorrent saves the session
+session.path.set = /srv/torrent/.session
+
+# Which ports rTorrent can use (Make sure to open them in your router)
+network.port_range.set = 50000-50000
+network.port_random.set = no
+
+# Check the hash after the end of the download
+pieces.hash.on_completion.set = yes
+
+# Enable DHT (for torrents without trackers)
+dht.mode.set = auto
+dht.port.set = 6881
+protocol.pex.set = yes
+
+# Authorize UDP trackers
+trackers.use_udp.set = yes
+
+# Enable encryption when possible
+protocol.encryption.set = allow_incoming,try_outgoing,enable_retry
+
+# SCGI port, used to communicate with Flood
+network.scgi.open_port = 127.0.0.1:5000
