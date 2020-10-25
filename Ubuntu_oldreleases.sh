@@ -120,3 +120,21 @@ cd ~/ubuntu
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
+#Ubuntu 6.10
+ver=6.10
+mkdir dl
+cd dl
+cd ~/ubuntu
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-powerpc.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-powerpc.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-sparc.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-alternate-powerpc.iso
+wget http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-alternate-amd64.iso
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
