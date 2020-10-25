@@ -168,3 +168,75 @@ cd ~/ubuntu
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
+#Ubuntu 8.04
+ver=8.04
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-dvd-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-dvd-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-server-i386.iso
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Ubuntu 8.04.1
+ver=8.04.1
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.1-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.1-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.1-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.1-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.1-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.1-server-i386.iso
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Ubuntu 8.04.2
+ver=8.04.2
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.2-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.2-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.2-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.2-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.2-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.2-server-i386.iso
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Ubuntu 8.04.3
+ver=8.04.3
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.3-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.3-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.3-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.3-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.3-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.3-server-i386.iso
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Ubuntu 8.04.4
+ver=8.04.4
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.4-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.4-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.4-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.4-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.4-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04.4-server-i386.iso
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
