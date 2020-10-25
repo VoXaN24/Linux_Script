@@ -255,3 +255,18 @@ cd ~/ubuntu
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
+#Ubuntu 9.04
+ver=9.04
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-server-i386.iso
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-netbook-remix-i386.img
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
