@@ -28,3 +28,20 @@ cd ~/ubuntu
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
+#Ubuntu 
+ver=5.10
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-install-i386.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-install-powerpc.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-install-amd64.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-live-i386.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-live-powerpc.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-live-amd64.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-dvd-i386.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-dvd-powerpc.iso
+wget http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-dvd-amd64.iso
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
