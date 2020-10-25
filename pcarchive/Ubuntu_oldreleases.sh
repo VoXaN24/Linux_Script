@@ -240,3 +240,18 @@ cd ~/ubuntu
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
+#Ubuntu 8.10
+ver=8.10
+mkdir dl
+cd dl
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-desktop-i386.iso
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-desktop-amd64.iso
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-server-i386.iso
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-server-amd64.iso
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-alternate-i386.iso
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-alternate-amd64.iso
+wget http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-mid-lpia.img
+cd ~/ubuntu
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
