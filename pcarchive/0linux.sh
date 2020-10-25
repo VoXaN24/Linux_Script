@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "téléchargement des iso & renomage des iso de 0Linux (lien 25/10/2020)"
 mkdir 0Linux
+cd 0Linux
 #eta
 ver=eta
 mkdir dl
