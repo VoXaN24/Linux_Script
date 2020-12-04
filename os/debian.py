@@ -1,18 +1,7 @@
 import wget
 import os
-def start():
-	print("Please choose your OS:\n1- Debian\n2- Ubuntu\n3- CentOS\n")
-	value=input()
-	if value=="1" or value=="debian" or value=="Debian":
-		debian()
-	elif value=="2" or value=="ubuntu" or value=="Ubuntu":
-		ubuntu()
-	elif value == "3" or value == "centos" or value == "Centos":
-		centos()
-	else:
-		start()
 
-def debian():
+def main():
 	print("Please write the number of the script you would use\n1- Debian 8 to 10\n2- Debian 9 to 10\n3- Debian 8 to 9\n4- Install Sublime Text 3\n5- Install Flood (Seedbox)")
 	val=input()
 	print("Install of CURL")
@@ -63,13 +52,5 @@ def debian():
 		os.system("rm flooddebian.sh")
 		print("Finished")
 	else:
-		debian()
-
-
-def ubuntu():
-	print("Please write the number of the script you would use\n1- Install Sublime text\n2- Install Flood (Seedbox)\n3- Install Docker")
-
-def centos():
-	print("Please write the number of the script you would use")
-
-start()
+		main()
+main()
