@@ -1,4 +1,5 @@
 import wget
+import os
 def start():
 	print("Please choose your OS:\n1- Debian\n2- Ubuntu\n3- CentOS\n")
 	value=input()
@@ -18,6 +19,10 @@ def debian():
 		print("Download of the script started")
 		url="https://voxan24.github.io/Linux_Script/deb8to10.sh"
 		wget.download(url)
+		print("Script started")
+		os.system("chmod 775 deb8to10.sh")
+		os.system("sudo ./deb8to10.sh")
+
 
 def ubuntu():
 	print("Please write the number of the script you would use")
