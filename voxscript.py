@@ -30,6 +30,7 @@ def ubuntu():
 	start()
 
 def centos():
-	print("Please write the number of the script you would use")
+	print("WIP")
+	start()
 
 start()
