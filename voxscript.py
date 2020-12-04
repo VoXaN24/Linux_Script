@@ -23,7 +23,11 @@ def debian():
 
 
 def ubuntu():
-	print("Please write the number of the script you would use\n1- Install Sublime text\n2- Install Flood (Seedbox)\n3- Install Docker")
+	url="https://voxan24.github.io/Linux_Script/os/ubuntu.py"
+	wget.download(url)
+	os.system("python3 ubuntu.py")
+	os.system("rm ubuntu.py")
+	start()
 
 def centos():
 	print("Please write the number of the script you would use")
