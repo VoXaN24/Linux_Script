@@ -12,7 +12,12 @@ def start():
 		start()
 
 def debian():
-	print("Please write the number of the script you would use")
+	print("Please write the number of the script you would use\n1- Debian 8 to 10\n2- Debian 9 to 10\n3- Debian 8 to 9\n4- Install Sublime Text 3\n5- Install Flood (Seedbox)")
+	val=input()
+	if val=="1":
+		print("Download of the script started")
+		url="https://voxan24.github.io/Linux_Script/deb8to10.sh"
+		wget.download(url)
 
 def ubuntu():
 	print("Please write the number of the script you would use")
