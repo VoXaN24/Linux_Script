@@ -2,7 +2,7 @@ import wget
 import os
 
 def main():
-	print("Please write the number of the script you would use\n1- Debian 8 to 10\n2- Debian 9 to 10\n3- Debian 8 to 9\n4- Install Sublime Text 3\n5- Install Flood (Seedbox)\n exit- Go to the main menue")
+	print("Please write the number of the script you would use\n1- Debian 8 to 10\n2- Debian 9 to 10\n3- Debian 8 to 9\n4- Install Sublime Text 3\n5- Install Flood (Seedbox)\n 100- Go to the main menue")
 	val=input()
 	print("Install of CURL")
 	os.system("sudo apt install curl -y")
@@ -51,8 +51,8 @@ def main():
 		os.system("sudo ./flooddebian.sh")
 		os.system("rm flooddebian.sh")
 		print("Finished")
-    elif val=="exit":
-        exit()
+    elif val=="100":
+    	exit()
 	else:
 		main()
 main()
