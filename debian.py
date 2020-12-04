@@ -51,7 +51,7 @@ def main():
 		os.system("sudo ./flooddebian.sh")
 		os.system("rm flooddebian.sh")
 		print("Finished")
-    elif val=="exit":
+    elif val="exit":
         exit()
 	else:
 		main()
