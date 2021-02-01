@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Téléchargement des iso de mandriva encore disponible librement (2010.0 -> 2011) (en vue des les archiver sur pcarchive.icu)"
+echo "Téléchargement des iso de mandriva encore disponible librement 10.0->2007.1  2010.0-> 2011) (en vue des les archiver sur pcarchive.icu)"
 mkdir mandriva
 cd mandriva
 #Mandriva 2010.0
@@ -160,4 +160,8 @@ wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007
 wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde6.iso
 wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde7.iso
 wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde8.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
 echo "end"
