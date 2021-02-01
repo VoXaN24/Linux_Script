@@ -76,4 +76,88 @@ cd ~/mandriva
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
+#Mandriva 10.0
+ver=10.0
+echo "10.0"
+mkdir dl
+cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.0/ia64/Mandrakelinux10.0-HYADES-beta3-CD1.ia64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.0/ia64/Mandrakelinux10.0-HYADES-beta3-CD2.ia64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.0/ia64/Mandrakelinux10.0-HYADES-beta3-CD3.ia64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.0/ia64/Mandrakelinux10.0-HYADES-beta3-CD4.ia64.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Mandriva 10.1
+ver=10.1
+echo "10.1"
+mkdir dl
+cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/ppc/Mandrakelinux-10.1-CD1.ppc.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/ppc/Mandrakelinux-10.1-CD2.ppc.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/ppc/Mandrakelinux-10.1-CD3.ppc.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/Mandrakelinux-10.1-Community-Download-CD1.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/Mandrakelinux-10.1-Community-Download-CD2.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/Mandrakelinux-10.1-Community-Download-CD3.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/Mandrakelinux-10.1-Official-Download-CD1.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/Mandrakelinux-10.1-Official-Download-CD2.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/Mandrakelinux-10.1-Official-Download-CD3.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/Mandrakelinux-10.1-Official-Download-DVD.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/Mandrakelinux-10.1-Official-Mini.i586.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Mandriva 2005
+ver=2005
+echo "2005"
+mkdir dl
+cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-Download-CD1.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-Download-CD2.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-Download-CD3.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-Download-DVD.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-Mini.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-XBOX-Mini.xbox.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.1/i586/official/10.2/Mandriva-Linux-2005-Limited-Edition-XBOX-boot.xbox.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.2/ppc/Mandriva-Linux-2005-Limited-Edition-CD1.ppc.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.2/ppc/Mandriva-Linux-2005-Limited-Edition-CD2.ppc.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/10.2/ppc/Mandriva-Linux-2005-Limited-Edition-CD3.ppc.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Mandriva 2007
+ver=2007
+echo "2007"
+mkdir dl
+cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD1.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD2.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD1.x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD2.x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD3.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD3.x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD4.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-CD4.x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/CD/mandriva-free-2007-mini.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/DVD/mandriva-free-2007-DVD.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/Mandriva-2007.0-One-Metisse.i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-free-gnome.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-free-kde.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-gnome1.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-gnome2.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-gnome3.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-gnome4.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-gnome5.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-gnome6.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde1.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde2.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde3.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde4.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde5.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde6.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde7.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2007.0/One/mandriva-one-2007-kde8.iso
 echo "end"
