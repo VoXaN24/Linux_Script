@@ -81,8 +81,22 @@ cd ~/mandriva
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf *
-#Mandriva 2009.0
-ver=2009.0
-echo "2009.0"
+#Mandriva 2009.1
+ver=2009.1
+echo "2009.1"
 mkdir dl
 cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-free-2009.1-dual.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-free-2009.1-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-free-2009.1-x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-one-2009.1-GNOME-africa-asia-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-one-2009.1-GNOME-europe-americas-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-one-2009.1-KDE4-africa-india-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-one-2009.1-KDE4-asia-noindia-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-one-2009.1-KDE4-europe1-americas-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.1/mandriva-linux-one-2009.1-KDE4-europe2-cdrom-i586.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+echo "End"
