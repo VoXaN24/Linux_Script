@@ -144,7 +144,34 @@ cd ~/fedora
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf * 
-#Fedora core 5
-ver=5
+#Fedora core 6
+ver=6
 mkdir dl
 cd dl
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-rescuecd.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/ppc/iso/FC-6-ppc-disc6.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-disc6.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/iso/FC-6-x86_64-rescuecd.iso
+cd ~/fedora
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+echo "end core"
