@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Téléchargement de tout les version de fédora encore disponible (core 1 -> 33) en vue de les archiver sur pcarchive.icu"
+echo "Téléchargement de tout les version de fedora encore disponible (core 1 -> 33) en vue de les archiver sur pcarchive.icu"
 mkdir fedora
 cd fedora
 #Fedora core 1
