@@ -90,3 +90,13 @@ wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/iso/
 wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/iso/FC4-i386-disc3.iso
 wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/iso/FC4-i386-disc4.iso
 wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/iso/FC4-i386-rescuecd.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-SRPMS-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-SRPMS-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-SRPMS-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-SRPMS-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/ppc/iso/FC4-ppc-disc5.iso
