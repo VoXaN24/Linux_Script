@@ -115,7 +115,36 @@ cd ~/fedora
 tar zcvf $ver.tar.gz dl/*
 mv $ver.tar.gz /var/www/html
 rm -rf * 
-#Fedora core 4
-ver=4
+#Fedora core 5
+ver=5
+mkdir dl
+cd dl
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-rescuecd.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-rescuecd.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-rescuecd.iso
+cd ~/fedora
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf * 
+#Fedora core 5
+ver=5
 mkdir dl
 cd dl
