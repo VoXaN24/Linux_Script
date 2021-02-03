@@ -43,3 +43,46 @@ ver=2008.1
 echo "2008.1"
 mkdir dl
 cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-free-2008-spring-cd1-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-free-2008-spring-cd2-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-free-2008-spring-cd3-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-free-2008-spring-dvd-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-free-2008-spring-dvd-x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-free-2008-spring-mini-dual.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-one-2008-spring-GNOME-asia-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-one-2008-spring-GNOME-extra-i18n-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-one-2008-spring-GNOME-int-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-one-2008-spring-KDE-asia-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-one-2008-spring-KDE-extra-i18n-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2008.1/mandriva-linux-one-2008-spring-KDE-int-cdrom-i586.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Mandriva 2009.0
+ver=2009.0
+echo "2009.0"
+mkdir dl
+cd dl
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-free-2009-cd1-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-free-2009-cd2-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-free-2009-dual-arch.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-free-2009-dvd-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-free-2009-dvd-x86_64.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-GNOME-afro-asia-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-GNOME-extra-i18n-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-GNOME-int-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-GNOME-jp-zh-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-KDE4-afro-asia-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-KDE4-extra-i18n-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-KDE4-int-cdrom-i586.iso
+wget http://ftp.twaren.net/Linux/Mandrake/devel/iso/2009.0/mandriva-linux-one-2009-KDE4-jp-zh-cdrom-i586.iso
+cd ~/mandriva
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Mandriva 2009.0
+ver=2009.0
+echo "2009.0"
+mkdir dl
+cd dl
