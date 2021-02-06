@@ -123,4 +123,35 @@ wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live
 wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live/x86_64/Fedora-11-x86_64-Live-KDE.iso
 wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live/x86_64/Fedora-11-x86_64-Live.iso
 wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-DVD.iso
-wget 
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc6.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-netinst.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-netinst.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc6.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-DVD.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-netinst.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc1.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc2.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc3.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc4.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc5.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc6.iso
+wget https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc7.iso
+cd ~/fedora
+tar zcvf $ver.tar.gz dl/*
+mv $ver.tar.gz /var/www/html
+rm -rf *
+#Fedora 11
+ver=11
+mkdir dl
+cd dl
