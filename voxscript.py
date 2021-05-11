@@ -1,6 +1,7 @@
 import wget
 import os
 def start():
+	print("Please execute that in the root user !")
 	print("Please choose your OS:\n1- Debian\n2- Ubuntu\n3- CentOS\n4- Exit")
 	value=input()
 	if value=="1" or value=="debian" or value=="Debian":
